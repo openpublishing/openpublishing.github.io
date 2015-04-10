@@ -1,0 +1,15 @@
+# Site settings
+title: OpenPub
+title_full: Open Publishing
+email: brandon.t.diamond@gmail.com
+description: > 
+    Open Publishing (or "OpenPub") is a set of
+    best practices and conventions designed to make content smarter,
+    more engaging, and more effective everywhere it appears.
+baseurl: ""
+url: "http://openpublishing.github.io" 
+facebook_username: openpub
+github_username:  openpublishing
+
+# Build settings
+markdown: kramdown
