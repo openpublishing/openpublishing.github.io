@@ -1,7 +1,3 @@
-# openpublishing.github.io
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/bruth/jekyll-docs-template/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 
-This website implements a living standard -- with emphasis on "living" and just a bit of grumbling after "standard".
-
-What for? Why -- OpenPub of course:
-
-The content must flow.
+Read the docs: http://bruth.github.io/jekyll-docs-template
