@@ -19,10 +19,12 @@ codeurl: 'https://github.com/openpublishing'
 
 # Default categories (in order) to appear in the navigation
 sections: [
-    ['doc', 'Documentation'],
-    ['tut', 'Tutorial'],
-    ['ref', 'Reference'],
-    ['dev', 'Developers'],
+    ['intro', 'Getting Started'],
+    ['adapter', 'Adapters'],
+    ['trait', 'Traits'],
+    ['tutorial', 'Tutorial'],
+    ['reference', 'Reference'],
+    ['developer', 'Developers'],
     ['post', 'Posts']
 ]
 
@@ -53,5 +55,6 @@ redcarpet:
         'superscript',
         'with_toc_data',
         'tables',
-        'hardwrap'
+        'hardwrap',
+        'smart'
     ]

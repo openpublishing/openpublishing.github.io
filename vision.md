@@ -1,9 +1,10 @@
 ---
 layout: page
-title: "Why?"
-category: doc
-date: 2015-04-20 17:09:27
+title: Vision
+permalink: /vision/
 ---
+
+# So, uh, why?
 
 The future of publishing is open.
 
@@ -17,13 +18,13 @@ Control is not the solution. It is a temptation that masks the real opportunity 
 
 Indeed, the future is open and not limited to blobs of HTML or short snippets of text or images pinned to a virtual wall. One size does not fit all. Content should respond, evolve, change. Creators should create content once and that content should reach every corner of the open web.
 
-### Philosophy
+## Philosophy
 
 OpenPub is a collection of guidelines and best practices -- leveraging existing technologies -- that are designed to empower content creators on the open web. In so doing, OpenPub aims to facilitate collaboration between journalists, readers, commentators, and networks to promote the free flow of information.
 
 OpenPub seeks to capture journalistic intent in such a way as can be translated to underlying networks. As such, OpenPub must be easy to evolve as the web grows and changes. A framework will be established for extending and modifying OpenPub with the goal of building an effective bridge between journalists and technologists
 
-### Strategy
+## Strategy
 
 1. We collect content from any number of sources via harvesters (RSS, scraping, API calls, ...)
 2. We plug said content into an OpenPub library
@@ -31,7 +32,7 @@ OpenPub seeks to capture journalistic intent in such a way as can be translated 
 4. Each attribute is associated with a "quality" score to indicate confidence
 5. There are no errors; only warnings. The common structure is annotated with these as well.
 
-### The Library
+## The OpenPub Library
 
 The library is the interesting part. It implements the current OpenPub guidelines and best practices:
 
@@ -40,3 +41,9 @@ We provide a versioned definition of a common structure. For each field, we spec
 The library applies each strategy sequentially to populate the common structure.
 
 Strategies may depend on other strategies. As a result, we must ensure that dependent attributes are processed following the attributes that they depend on.
+
+## Defining the Common Structure
+
+The common structure is defined in a repository managed by a number of volunteers -- both technical and editorial. Changes must be proposed as pull requests. Data must not be removed; however, strategies can be re-arranged and scores re-evaluated.
+
+All changes to the structure must be documented in the tutorial, in the spec, and in the code (which itself must be tested). The tutorial must reference the spec and the spec must reference the code.
