@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "Getting Started"
-category: doc
+title: "Overview"
+category: intro
 date: 2015-04-20 17:21:18
 ---
 
@@ -32,4 +32,6 @@ Very importantly:
 
 `OpenPub` is a simple tool to make your content more portable and more accessible. Write once, read everywhere.
 
-That's it.
+[Find out how][1]
+
+[1]: google.com
