@@ -18,9 +18,9 @@ You can put it just about anywhere:
 
 Its purpose is to make [web scraping][1] a thing of the past.
 
-We're all grown-ups here, so let's just call it like it is: your content is *everywhere*, whether you like it... or not. If you're savvy and want to reach as many people as possible, you'll want your content to be *easily* portable.
+Let's just call it like it is: your content is *everywhere*, whether you like it or not. If you're savvy and want to reach as many people as possible, you'll want your content to be *easily* portable. If not... ever heard of pets.com?
 
-`OpenPub` is how you do that--- while maintaining your brand and journalistic control.
+`OpenPub` is how you do this--- while maintaining your brand _and_ your journalistic control.
 
 [1]: http://en.wikipedia.org/wiki/Web_scraping
 [2]: /intro/importers.html

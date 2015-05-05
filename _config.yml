@@ -21,8 +21,7 @@ codeurl: 'https://github.com/openpublishing'
 sections: [
     ['intro', 'Getting Started'],
     ['cards', 'Cards'],
-    ['import', 'Importers'],
-    ['export', 'Exporters'],
+    ['helpers', 'Helpers'],
     ['tutorial', 'Tutorial'],
     ['reference', 'Reference'],
     ['developer', 'Developers'],

@@ -1,0 +1,1 @@
+../_posts/2015-05-03-common-fields.md

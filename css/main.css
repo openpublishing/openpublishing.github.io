@@ -14,7 +14,6 @@
     text-align: center;
 }
 
-
 #navigation {
     font-size: 0.9em;
 }
@@ -27,6 +26,24 @@
 #navigation li {
   margin-left: 30px;
   font-size: 12px;
+  list-style-type: none;
+}
+
+#navigation li.nested:before {
+  position: relative;
+  left: -10px;
+  content: "|";
+  font-size: 12px;
+  color: #ccc;
+}
+
+#navigation li.nested {
+  margin-left: 50px;
+  margin-top: -5px;
+}
+
+#navigation li.nested a {
+  font-size: 11px;
 }
 
 #navigation .nav-header {
@@ -79,4 +96,24 @@ body {
 .nav-list [class^="icon-"],
 .nav-list [class*=" icon-"] {
   margin-right: 2px;
+}
+
+/* Make tables less ugly */
+
+table {
+  width: 100%;
+}
+
+table th,
+table td {
+  padding: 5px;
+}
+
+table tr {
+  border-bottom: 1px solid #aaa;
+}
+
+table thead {
+  background: #eee;
+  border-bottom: 1px solid #aaa;
 }
