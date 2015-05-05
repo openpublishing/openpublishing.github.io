@@ -1,1 +1,1 @@
-/Users/btd/openpub/_posts/2015-05-04-story.md
+../_posts/2015-05-04-story.md

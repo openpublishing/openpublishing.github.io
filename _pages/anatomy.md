@@ -1,1 +1,1 @@
-/Users/btd/openpub/_posts/2015-04-24-anatomy.md
+../_posts/2015-04-24-anatomy.md

@@ -1,1 +1,1 @@
-/Users/btd/openpub/_posts/2015-04-24-how-it-works.md
+../_posts/2015-04-24-how-it-works.md
