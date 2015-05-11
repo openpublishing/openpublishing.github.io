@@ -1,1 +1,1 @@
-/Users/btd/openpub/_posts/2015-05-08-elements.md
+../_posts/2015-05-08-elements.md
