@@ -101,6 +101,7 @@ body {
 hr {
   margin: 40px 0px;
   width: 100%;
+  border-color: #000;
 }
 
 /* Make tables less ugly */
@@ -125,4 +126,10 @@ table thead {
 
 code {
   font-size: inherit !important;
+}
+
+a code,
+code a {
+  color: #00f;
+  text-decoration: underline !important;
 }
