@@ -1,26 +1,38 @@
 #header {
-    border-bottom: 1px solid #eee;
-    margin-bottom: 20px;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 20px;
 }
 
 #header a:hover {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 #footer {
-    margin: 20px 0;
-    font-size: 0.85em;
-    color: #999;
-    text-align: center;
+  margin: 20px 0;
+  font-size: 0.85em;
+  color: #999;
+  text-align: center;
+}
+
+#options {
+  position: absolute;
+  top: 0px;
+  right: 0px;
 }
 
 #navigation {
-    font-size: 0.9em;
+  visibility: hidden;
+  font-size: 0.9em;
 }
 
 #navigation li a {
-    padding-left: 10px;
-    padding-right: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #00f !important;
+}
+
+#navigation li a:hover {
+  text-decoration: underline;
 }
 
 #navigation li {
@@ -47,9 +59,9 @@
 }
 
 #navigation .nav-header {
-    padding-left: 0;
-    padding-right: 0;
-    margin-left: 0;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 0;
 }
 
 body {
@@ -132,4 +144,13 @@ a code,
 code a {
   color: #00f;
   text-decoration: underline !important;
+}
+
+a[href $= "#toc"] {
+  font-size: 14px;
+  color: #ddd !important;
+}
+
+a[href $= "#toc"]:hover {
+  color: #888 !important;
 }

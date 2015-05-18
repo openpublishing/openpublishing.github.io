@@ -6,17 +6,7 @@ date: 2015-05-04 19:48:35
 order: 2
 ---
 
-### Summary
-
 The identity (and reputation) of a content publisher is extremely important. This card captures essential information about a story's publisher.
-
-### Helpers
-
- - All helpers can import and export this card
-
-### Platforms
-
- - Facebook
 
 ### Example
 
@@ -28,12 +18,10 @@ The identity (and reputation) of a content publisher is extremely important. Thi
 }
 ````
 
-### The Nitty Gritty
+### Fields
 
-##### Version 1
-
-| Field | Type | Purpose | Caveats |
-| ----- | ---- | ------- | ------- |
-| home | string | The unique URL associated with this publisher. | Must be a valid URL. |
-| name | string | The publisher's name. | Optional. |
-| about | string | A brief note about the publication. | Optional. |
+| Field | Type | Purpose | Caveats | Version |
+| ----- | ---- | ------- | ------- | ------- |
+| home | string | The unique URL associated with this publisher. | Must be a valid URL. | 1 |
+| name | string | The publisher's name. | Optional. | 1 |
+| about | string | A brief note about the publication. | Optional. | 1 |

@@ -20,11 +20,9 @@ codeurl: 'https://github.com/openpublishing'
 # Default categories (in order) to appear in the navigation
 sections: [
     ['intro', 'Getting Started'],
-    ['cards', 'Cards'],
-    ['helpers', 'Helpers'],
     ['tutorial', 'Tutorial'],
-    ['reference', 'Reference'],
-    ['developer', 'Developers'],
+    ['cards', 'Cards'],
+    ['tools', 'Tools'],
     ['post', 'Posts']
 ]
 

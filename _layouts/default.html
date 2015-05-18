@@ -30,6 +30,13 @@
                     </div>
 
                     <div id="content" class="col-md-10">
+                        <div id=options>
+                          <select>
+                            <option>Show examples as...</option>
+                            <option>JSON</option>
+                            <option>XML</option>
+                          </select>
+                        </div>
                         {{ content }}
                     </div>
                 {% else %}
@@ -70,10 +77,11 @@
                     lists = {},
                     headers = {};
 
-                var navUl = document.querySelectorAll('#navigation ul')[0],
+                var nav = document.querySelectorAll('#navigation')[0],
+                    navUl = document.querySelectorAll('#navigation ul')[0],
                     navLis = document.querySelectorAll('#navigation ul li');
 
-                if (!navUl) return;
+                if (!nav || !navUl) return;
 
                 for (var i = 0; i < navLis.length; i++) {
                     var order, li = navLis[i];
@@ -106,6 +114,8 @@
                         navUl.appendChild(list[j][1]);
                     }
                 }
+
+                nav.style.visibility = 'visible';
             }
 
             if (document.querySelectorAll) orderNav();
