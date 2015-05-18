@@ -154,3 +154,48 @@ a[href $= "#toc"] {
 a[href $= "#toc"]:hover {
   color: #888 !important;
 }
+
+pre {
+    padding: 20px;
+    overflow-x: auto;
+    line-height: 0px !important;
+}
+
+pre code {
+    font-size: 12px !important;
+    word-wrap: normal;
+    overflow-wrap: normal;
+    white-space: pre;
+}
+
+.document {
+  border: 2px solid #888;
+  padding: 20px;
+}
+
+.document .slideshow {
+  width:500px;
+  height:300px;
+  overflow:hidden;
+  border:10px solid;
+  border-top-color:#856036;
+  border-left-color:#5d4426;
+  border-bottom-color:#856036;
+  border-right-color:#5d4426;
+  position:relative;
+}
+
+.document .slideshow figure {
+  position:absolute;
+  -webkit-animation:round 12s infinite;
+  opacity:0;
+}
+
+@-webkit-keyframes round {
+  25%{opacity:1;}
+  40%{opacity:0;}
+}
+
+.document .slideshow figure:nth-child(1){-webkit-animation-delay:0s;}
+.document .slideshow figure:nth-child(2){-webkit-animation-delay:4s;}
+.document .slideshow figure:nth-child(3){-webkit-animation-delay:8s;}

@@ -1,1 +1,1 @@
-/Users/brandon/openpublishing.github.io/_posts/2015-05-17-links.md
+../_posts/2015-05-17-links.md

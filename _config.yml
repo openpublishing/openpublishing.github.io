@@ -23,6 +23,7 @@ sections: [
     ['tutorial', 'Tutorial'],
     ['cards', 'Cards'],
     ['tools', 'Tools'],
+    ['examples', 'Examples'],
     ['post', 'Posts']
 ]
 

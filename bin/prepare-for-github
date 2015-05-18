@@ -1,0 +1,11 @@
+#!/bin/bash
+
+cd _pages || ( echo "Make sure you're in the root of the jekyll site"; exit 1 )
+
+BACKUP="`mktemp -d /tmp/jekyll.XXXXXXX`"
+
+for NAME in *.md; do
+  cp $NAME $BACKUP/$NAME
+  rm $NAME
+  ln -s ../_posts/*$NAME $NAME
+done
