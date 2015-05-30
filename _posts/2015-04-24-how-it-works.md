@@ -6,21 +6,14 @@ order: 1
 date: 2015-04-24 14:53:46
 ---
 
-`OpenPub` is, at its core, just a bunch of `JSON` that describes --- and optionally contains -- your content.
+`OpenPub` is just a bunch of `JSON` (or `XML`, or `YAML`, or whatever) that describes -- and *optionally* contains -- your content.
 
 You can put it just about anywhere:
 
  - In an RSS feed
  - In an API call
- - In your markup
- - In someone's toaster
- - Wherever!
+ - In your HTML markup
 
-Its purpose is to make [web scraping][1] a thing of the past.
-
-Let's just call it like it is: your content is *everywhere*, whether you like it or not. If you're savvy and want to reach as many people as possible, you'll want your content to be *easily* portable. If not... ever heard of pets.com?
-
-`OpenPub` is how you do this--- while maintaining your brand _and_ your journalistic control.
+Its purpose is to retire [web scraping][1] by making content widely available -- all while protecting your brand and your intentions.
 
 [1]: http://en.wikipedia.org/wiki/Web_scraping
-[2]: /intro/importers.html

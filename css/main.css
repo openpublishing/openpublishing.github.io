@@ -147,7 +147,7 @@ a:visited code,
 code a:visited,
 a code,
 code a {
-  color: #00f;
+  color: #00f !important;
   text-decoration: underline;
 }
 
@@ -207,8 +207,12 @@ pre code {
 
 td:nth-child(2) code,
 td:nth-child(3) code {
-    color: #080;
+    color: #555;
     font-size: 12px;
+}
+
+td:nth-child(2) code {
+    color: #080;
 }
 
 td:first-child code {
@@ -219,4 +223,8 @@ td:first-child code {
 
 li {
   margin-left: 2em;
+}
+
+pre {
+  border-color: #ddd;
 }
