@@ -124,26 +124,31 @@ table {
 
 table th,
 table td {
-  padding: 5px;
+  padding: 10px;
 }
 
 table tr {
-  border-bottom: 1px solid #aaa;
+  border-bottom: 1px solid #ddd;
+}
+
+table th {
+  border-bottom: 1px solid #bbb;
 }
 
 table thead {
   background: #eee;
-  border-bottom: 1px solid #aaa;
 }
 
 code {
   font-size: inherit !important;
 }
 
+a:visited code,
+code a:visited,
 a code,
 code a {
   color: #00f;
-  text-decoration: underline !important;
+  text-decoration: underline;
 }
 
 a[href $= "#toc"] {
@@ -199,3 +204,19 @@ pre code {
 .document .slideshow figure:nth-child(1){-webkit-animation-delay:0s;}
 .document .slideshow figure:nth-child(2){-webkit-animation-delay:4s;}
 .document .slideshow figure:nth-child(3){-webkit-animation-delay:8s;}
+
+td:nth-child(2) code,
+td:nth-child(3) code {
+    color: #080;
+    font-size: 12px;
+}
+
+td:first-child code {
+  font-weight: bold;
+  font-size: 14px !important;
+  color: #b06;
+}
+
+li {
+  margin-left: 2em;
+}

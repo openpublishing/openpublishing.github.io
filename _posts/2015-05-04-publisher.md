@@ -12,7 +12,8 @@ The identity (and reputation) of a content publisher is extremely important. Thi
 
 ````json
 {
-  "type": "publisher",
+  "type": "Publisher",
+  "label": "Fluffington Post",
   "version": 1,
   "help": "http://format.example.com/openpub/version/1",
 }
@@ -20,8 +21,12 @@ The identity (and reputation) of a content publisher is extremely important. Thi
 
 ### Fields
 
-| Field | Type | Purpose | Caveats | Version |
-| ----- | ---- | ------- | ------- | ------- |
-| home | string | The unique URL associated with this publisher. | Must be a valid URL. | 1 |
-| name | string | The publisher's name. | Optional. | 1 |
-| about | string | A brief note about the publication. | Optional. | 1 |
+| Field | Type | Default | Purpose | Caveats | Version |
+| ----- | ---- | ------- | ------- | ------- | ------- |
+| `home` | `string` | `null` | The unique URL associated with this publisher. | Must be a valid URL. | 1 |
+| `label` | `string` | `null` | The publisher's display name. || 1 |
+| `profile` | [`Profile`][1] | `{}` |  The publisher's online profile. | | 1 |
+| `about` | `string` | `null` |  A brief note about the publication. | [Markdown][2] enabled. | 1 |
+
+[1]: /cards/mention.html
+[2]: /
