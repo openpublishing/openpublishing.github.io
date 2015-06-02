@@ -6,7 +6,7 @@ date: 2015-05-04 19:48:35
 order: 2
 ---
 
-The identity (and reputation) of a content publisher is extremely important. This card captures essential information about a story's publisher.
+This card captures essential information about the identity and voice of a content publisher.
 
 ### Example
 
@@ -29,4 +29,4 @@ The identity (and reputation) of a content publisher is extremely important. Thi
 | `about` | `string` | `null` |  A brief note about the publication. | [Markdown][2] enabled. | 1 |
 
 [1]: /cards/mention.html
-[2]: /
+[2]: /markdown

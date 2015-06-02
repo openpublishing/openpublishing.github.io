@@ -7,7 +7,7 @@ order: 301
 class: nested
 ---
 
-The `Geography` card provides a reasonable and simple format for describing geographic data and annotations.
+This card provides a comprehensive structure for describing geographic data.
 
 ### Example
 
@@ -22,6 +22,7 @@ The `Geography` card provides a reasonable and simple format for describing geog
 
 | Field | Type | Default | Purpose | Caveats | Version |
 | ----- | ---- | ------- | ------- | ------- | ------- |
-| `geojson` | [`GeoJSON`][1] | --- |  Geographic data serialized in the `GeoJSON` format. | Some extensions are supported. | 1 |
+| `geojson` | [`GeoJSON`][1] | --- |  Geographic data serialized in the `GeoJSON` format. | Some [extensions][2] are supported. | 1 |
 
 [1]: http://geojson.org/
+[2]: /geojson
