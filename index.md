@@ -18,7 +18,7 @@ Web publishing has become *decentralized* --- our aim is to make decentralized p
 
 - Write once, publish everywhere
 - Reach more people
-- Load faster
+- Load content faster
 - Increase engagement
 - Easy to use
 
